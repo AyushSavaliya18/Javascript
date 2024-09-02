@@ -56,5 +56,13 @@ console.log(Math.pow(2, 4));
 console.log(Math.random() * 100);
 console.log(Math.abs(-23));
 console.log(Math.PI);
+console.log(Math.PI);
+console.log(Math.PI);
+console.log(Math.PI);
+console.log(Math.PI);
+console.log(Math.PI);
+console.log(Math.PI);
+console.log(Math.PI);
+console.log(Math.PI);
 
 console.log("https://w3layouts.com/template/race-sports-category-flat-bootstrap-responsive-web-template/");
