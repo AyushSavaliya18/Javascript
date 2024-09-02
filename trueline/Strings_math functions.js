@@ -57,12 +57,12 @@ console.log(Math.random() * 100);
 console.log(Math.abs(-23));
 console.log(Math.PI);
 
+/*
+css style width
+992 max 992-infinty
+768 max 768-992
+576 max  576-768
+576 min   0-576
+*/
 
-
-console.log("https://w3layouts.com/template/race-sports-category-flat-bootstrap-responsive-web-template/");
-console.log("https://w3layouts.com/template/race-sports-category-flat-bootstrap-responsive-web-template/");
-console.log("https://w3layouts.com/template/race-sports-category-flat-bootstrap-responsive-web-template/");
-console.log("https://w3layouts.com/template/race-sports-category-flat-bootstrap-responsive-web-template/");
-console.log("https://w3layouts.com/template/race-sports-category-flat-bootstrap-responsive-web-template/");
-console.log("https://w3layouts.com/template/race-sports-category-flat-bootstrap-responsive-web-template/");
 console.log("https://w3layouts.com/template/race-sports-category-flat-bootstrap-responsive-web-template/");
