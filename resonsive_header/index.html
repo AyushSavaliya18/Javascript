@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="992maxwidth.css" />
+    <link rel="stylesheet" href="768maxwidth.css" />
+    <link rel="stylesheet" href="576maxwidth.css" />
+    <link rel="stylesheet" href="576minwidth.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <div class="logo"><img src="bl.webp" /></div>
+        <li class="a1"><a href="#home">Home</a></li>
+        <li class="a2"><a href="#about">About</a></li>
+        <li class="a3"><a href="#services">Services</a></li>
+        <li class="a4"><a href="#contact">Contact</a></li>
+        <li class="a5"><a href="#contact">login</a></li>
+        <li class="a6"><a href="#contact">Sign up</a></li>
+        <li id="menu"> <i class="fa-solid fa-bars fa-lg" id="show" style="color: #000000" onclick="show()" ></i> </li>
+      </ul>
+    </nav>
+    <script>
+      const navlist = document.querySelector(".nav-list");
+      const menuicon = document.querySelector("#show");
+
+      function show() {
+        navlist.classList.toggle("active");
+      }
+
+      menuicon.addEventListener("click", show);
+    </script>
+  </body>
+</html>

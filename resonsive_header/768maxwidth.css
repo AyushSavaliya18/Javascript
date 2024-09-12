@@ -1,0 +1,12 @@
+@media (max-width:768px) {
+    .nav-list .a6 {
+        text-decoration: none;
+        color: black;
+        font-family: sans-serif;
+        border-bottom: 2px solid black;
+        border-radius: 5px;
+        display: none;
+    }
+
+
+}

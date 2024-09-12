@@ -1,0 +1,10 @@
+@media (max-width:576px) {
+    .nav-list .a1,.a2,.a3,.a4,.a5{
+        display: none;
+    }
+    .nav-list i{
+        display: inline-block;
+        padding-left: 300px;
+    }
+
+}
