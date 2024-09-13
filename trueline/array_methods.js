@@ -36,7 +36,7 @@ const arr = [1, 3, 0, 4, 5, 6, 7];
 // console.log(Array.isArray(a));
 
 // indexof ()
-const arr1 = ["parth surat", "ayush", "savaliya"];
+const arr1 = [" surat", "ayush", "savaliya"];
 // console.log(arr1.indexOf("patel", 1));
 
 // arr1.lastIndexOf();

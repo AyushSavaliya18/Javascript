@@ -1,10 +1,8 @@
-let hello = (name) => `${name}`
-hello("ayush")
-console.log(hello);
-
+let hello = (name) => `${name}`;
+const a = hello("ayush");
+console.log(a);
 function sum(x, y, z) {
-    return x + y + z;
-  }
-  
-  const numbers = [1, 2, 3];
-  console.log(sum(...numbers));
+  return x + y - z;
+}
+const numbers = [1, 2, 6];
+console.log(sum(...numbers));
