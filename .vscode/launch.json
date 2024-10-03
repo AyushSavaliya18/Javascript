@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/mukund/Desktop/codes/Code/C:C++/C",
+      "program": "/Users/mukund/Desktop/codes/Code/C:C++/C/build/Debug/outDebug"
+    }
+  ]
+}
