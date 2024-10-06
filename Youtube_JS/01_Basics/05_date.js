@@ -15,5 +15,7 @@ let newdate = new Date("1-19-24");
 var ts = Date.now();
 // console.log(ts);
 // console.log(newdate.getTime());
-console.log(Date.now());
-console.log(Math.floor(Date.now() / 1000));
+// console.log(Date.now());
+// console.log(Math.floor(Date.now() / 1000));
+
+newdate.toLocaleString("defult", {});
